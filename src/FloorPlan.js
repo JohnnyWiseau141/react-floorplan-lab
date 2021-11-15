@@ -9,10 +9,10 @@ function FloorPlan(props) {
     <div>
     < Bedroom bedNum={2} /> 
     < Kitchen />
-    < Bath />
+    < Bath size={"Full"} />
     < Bedroom bedNum={1} />
     < LivingRoom />
-    < Bath />
+    < Bath size={"Half"} />
     < Bedroom bedNum={3} />
     </div>
   );
