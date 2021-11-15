@@ -1,6 +1,20 @@
+import Kitchen from './Kitchen';
+import LivingRoom from './LivingRoom';
+import Bedroom from './Bedroom'
+import Bath from './Bath'
+
+
 function FloorPlan(props) {
   return (
-    <h1>This is a FloorPlan</h1>
+    <>
+    < Bedroom /> 
+    < Kitchen />
+    < Bath />
+    < Bedroom />
+    < LivingRoom />
+    < Bath />
+    < Bedroom />
+    </>
   );
 }
 
