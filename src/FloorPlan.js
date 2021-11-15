@@ -6,15 +6,15 @@ import Bath from './Bath'
 
 function FloorPlan(props) {
   return (
-    <>
-    < Bedroom /> 
+    <div>
+    < Bedroom bedNum={2} /> 
     < Kitchen />
     < Bath />
-    < Bedroom />
+    < Bedroom bedNum={1} />
     < LivingRoom />
     < Bath />
-    < Bedroom />
-    </>
+    < Bedroom bedNum={3} />
+    </div>
   );
 }
 
