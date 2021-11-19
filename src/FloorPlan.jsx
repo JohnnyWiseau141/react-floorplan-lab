@@ -5,10 +5,14 @@ import Bath from './Bath'
 
 
 function FloorPlan(props) {
+  
   return (
     <div>
     < Bedroom bedNum={2} /> 
-    < Kitchen />
+    < Kitchen 
+      coldFoods={props.coldFoods}
+      frozenFoods={props.frozenFoods}
+    />
     < Bath size={"Full"} />
     < Bedroom bedNum={1} />
     < LivingRoom />
